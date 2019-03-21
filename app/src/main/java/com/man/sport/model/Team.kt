@@ -5,5 +5,6 @@ package com.man.sport.model
  * Name    : Lukmanul Hakim
  * on      : 19, March, 2019
  */
-class Team {
-}
+data class Team (
+    var teams : MutableList<TeamDetail>
+)
